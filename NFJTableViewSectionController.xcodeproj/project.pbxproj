@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0FD554419E99F610031A0B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD554319E99F610031A0B0 /* main.m */; };
+		B0FD554719E99F610031A0B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD554619E99F610031A0B0 /* AppDelegate.m */; };
+		B0FD554A19E99F610031A0B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD554919E99F610031A0B0 /* ViewController.m */; };
+		B0FD554F19E99F610031A0B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD554E19E99F610031A0B0 /* Images.xcassets */; };
+		B0FD555E19E99F610031A0B0 /* NFJTableViewSectionControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD555D19E99F610031A0B0 /* NFJTableViewSectionControllerTests.m */; };
+		B0FD556C19E99FC60031A0B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0FD556819E99FC60031A0B0 /* LaunchScreen.xib */; };
+		B0FD556D19E99FC60031A0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FD556A19E99FC60031A0B0 /* Main.storyboard */; };
+		B0FD557019E9A05D0031A0B0 /* NFJTableViewSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD556F19E9A05D0031A0B0 /* NFJTableViewSectionController.m */; };
+		B0FD557319E9A0CE0031A0B0 /* NFJTableViewSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD557219E9A0CE0031A0B0 /* NFJTableViewSectionInfo.m */; };
+		B0FD557619E9A37F0031A0B0 /* NFJTableViewSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD557519E9A37F0031A0B0 /* NFJTableViewSectionHeaderView.m */; };
+		B0FD557A19E9CB9D0031A0B0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD557919E9CB9D0031A0B0 /* Person.m */; };
+		B0FD558019E9CC220031A0B0 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD557F19E9CC220031A0B0 /* Group.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0FD555819E99F610031A0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0FD553619E99F610031A0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FD553D19E99F610031A0B0;
+			remoteInfo = NFJTableViewSectionController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0FD553E19E99F610031A0B0 /* NFJTableViewSectionController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFJTableViewSectionController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD554219E99F610031A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FD554319E99F610031A0B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0FD554519E99F610031A0B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0FD554619E99F610031A0B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0FD554819E99F610031A0B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0FD554919E99F610031A0B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0FD554E19E99F610031A0B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0FD555719E99F610031A0B0 /* NFJTableViewSectionControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFJTableViewSectionControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD555C19E99F610031A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FD555D19E99F610031A0B0 /* NFJTableViewSectionControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFJTableViewSectionControllerTests.m; sourceTree = "<group>"; };
+		B0FD556919E99FC60031A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0FD556B19E99FC60031A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0FD556E19E9A05D0031A0B0 /* NFJTableViewSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFJTableViewSectionController.h; sourceTree = "<group>"; };
+		B0FD556F19E9A05D0031A0B0 /* NFJTableViewSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFJTableViewSectionController.m; sourceTree = "<group>"; };
+		B0FD557119E9A0CE0031A0B0 /* NFJTableViewSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFJTableViewSectionInfo.h; sourceTree = "<group>"; };
+		B0FD557219E9A0CE0031A0B0 /* NFJTableViewSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFJTableViewSectionInfo.m; sourceTree = "<group>"; };
+		B0FD557419E9A37F0031A0B0 /* NFJTableViewSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFJTableViewSectionHeaderView.h; sourceTree = "<group>"; };
+		B0FD557519E9A37F0031A0B0 /* NFJTableViewSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFJTableViewSectionHeaderView.m; sourceTree = "<group>"; };
+		B0FD557719E9AAFE0031A0B0 /* NFJTableViewSectionInfo_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFJTableViewSectionInfo_p.h; sourceTree = "<group>"; };
+		B0FD557819E9CB9D0031A0B0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B0FD557919E9CB9D0031A0B0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B0FD557E19E9CC220031A0B0 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		B0FD557F19E9CC220031A0B0 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FD553B19E99F610031A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD555419E99F610031A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0FD553519E99F610031A0B0 = {
+			isa = PBXGroup;
+			children = (
+				B0FD556719E99F6D0031A0B0 /* Demo */,
+				B0FD554019E99F610031A0B0 /* NFJTableViewSectionController */,
+				B0FD555A19E99F610031A0B0 /* NFJTableViewSectionControllerTests */,
+				B0FD553F19E99F610031A0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FD553F19E99F610031A0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD553E19E99F610031A0B0 /* NFJTableViewSectionController.app */,
+				B0FD555719E99F610031A0B0 /* NFJTableViewSectionControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FD554019E99F610031A0B0 /* NFJTableViewSectionController */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD556E19E9A05D0031A0B0 /* NFJTableViewSectionController.h */,
+				B0FD556F19E9A05D0031A0B0 /* NFJTableViewSectionController.m */,
+				B0FD557119E9A0CE0031A0B0 /* NFJTableViewSectionInfo.h */,
+				B0FD557719E9AAFE0031A0B0 /* NFJTableViewSectionInfo_p.h */,
+				B0FD557219E9A0CE0031A0B0 /* NFJTableViewSectionInfo.m */,
+				B0FD557419E9A37F0031A0B0 /* NFJTableViewSectionHeaderView.h */,
+				B0FD557519E9A37F0031A0B0 /* NFJTableViewSectionHeaderView.m */,
+			);
+			path = NFJTableViewSectionController;
+			sourceTree = "<group>";
+		};
+		B0FD554119E99F610031A0B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD554219E99F610031A0B0 /* Info.plist */,
+				B0FD554319E99F610031A0B0 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FD555A19E99F610031A0B0 /* NFJTableViewSectionControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD555D19E99F610031A0B0 /* NFJTableViewSectionControllerTests.m */,
+				B0FD555B19E99F610031A0B0 /* Supporting Files */,
+			);
+			path = NFJTableViewSectionControllerTests;
+			sourceTree = "<group>";
+		};
+		B0FD555B19E99F610031A0B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD555C19E99F610031A0B0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FD556719E99F6D0031A0B0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD554519E99F610031A0B0 /* AppDelegate.h */,
+				B0FD554619E99F610031A0B0 /* AppDelegate.m */,
+				B0FD554819E99F610031A0B0 /* ViewController.h */,
+				B0FD554919E99F610031A0B0 /* ViewController.m */,
+				B0FD557819E9CB9D0031A0B0 /* Person.h */,
+				B0FD557919E9CB9D0031A0B0 /* Person.m */,
+				B0FD557E19E9CC220031A0B0 /* Group.h */,
+				B0FD557F19E9CC220031A0B0 /* Group.m */,
+				B0FD554E19E99F610031A0B0 /* Images.xcassets */,
+				B0FD556819E99FC60031A0B0 /* LaunchScreen.xib */,
+				B0FD556A19E99FC60031A0B0 /* Main.storyboard */,
+				B0FD554119E99F610031A0B0 /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FD553D19E99F610031A0B0 /* NFJTableViewSectionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FD556119E99F610031A0B0 /* Build configuration list for PBXNativeTarget "NFJTableViewSectionController" */;
+			buildPhases = (
+				B0FD553A19E99F610031A0B0 /* Sources */,
+				B0FD553B19E99F610031A0B0 /* Frameworks */,
+				B0FD553C19E99F610031A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFJTableViewSectionController;
+			productName = NFJTableViewSectionController;
+			productReference = B0FD553E19E99F610031A0B0 /* NFJTableViewSectionController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0FD555619E99F610031A0B0 /* NFJTableViewSectionControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FD556419E99F610031A0B0 /* Build configuration list for PBXNativeTarget "NFJTableViewSectionControllerTests" */;
+			buildPhases = (
+				B0FD555319E99F610031A0B0 /* Sources */,
+				B0FD555419E99F610031A0B0 /* Frameworks */,
+				B0FD555519E99F610031A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0FD555919E99F610031A0B0 /* PBXTargetDependency */,
+			);
+			name = NFJTableViewSectionControllerTests;
+			productName = NFJTableViewSectionControllerTests;
+			productReference = B0FD555719E99F610031A0B0 /* NFJTableViewSectionControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FD553619E99F610031A0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = nfujii;
+				TargetAttributes = {
+					B0FD553D19E99F610031A0B0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					B0FD555619E99F610031A0B0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B0FD553D19E99F610031A0B0;
+					};
+				};
+			};
+			buildConfigurationList = B0FD553919E99F610031A0B0 /* Build configuration list for PBXProject "NFJTableViewSectionController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0FD553519E99F610031A0B0;
+			productRefGroup = B0FD553F19E99F610031A0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FD553D19E99F610031A0B0 /* NFJTableViewSectionController */,
+				B0FD555619E99F610031A0B0 /* NFJTableViewSectionControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0FD553C19E99F610031A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD556D19E99FC60031A0B0 /* Main.storyboard in Resources */,
+				B0FD556C19E99FC60031A0B0 /* LaunchScreen.xib in Resources */,
+				B0FD554F19E99F610031A0B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD555519E99F610031A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0FD553A19E99F610031A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD557319E9A0CE0031A0B0 /* NFJTableViewSectionInfo.m in Sources */,
+				B0FD557019E9A05D0031A0B0 /* NFJTableViewSectionController.m in Sources */,
+				B0FD557A19E9CB9D0031A0B0 /* Person.m in Sources */,
+				B0FD557619E9A37F0031A0B0 /* NFJTableViewSectionHeaderView.m in Sources */,
+				B0FD554A19E99F610031A0B0 /* ViewController.m in Sources */,
+				B0FD554719E99F610031A0B0 /* AppDelegate.m in Sources */,
+				B0FD554419E99F610031A0B0 /* main.m in Sources */,
+				B0FD558019E9CC220031A0B0 /* Group.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD555319E99F610031A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD555E19E99F610031A0B0 /* NFJTableViewSectionControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0FD555919E99F610031A0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0FD553D19E99F610031A0B0 /* NFJTableViewSectionController */;
+			targetProxy = B0FD555819E99F610031A0B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0FD556819E99FC60031A0B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FD556919E99FC60031A0B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B0FD556A19E99FC60031A0B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FD556B19E99FC60031A0B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0FD555F19E99F610031A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0FD556019E99F610031A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0FD556219E99F610031A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0FD556319E99F610031A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0FD556519E99F610031A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NFJTableViewSectionControllerTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFJTableViewSectionController.app/NFJTableViewSectionController";
+			};
+			name = Debug;
+		};
+		B0FD556619E99F610031A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NFJTableViewSectionControllerTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFJTableViewSectionController.app/NFJTableViewSectionController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0FD553919E99F610031A0B0 /* Build configuration list for PBXProject "NFJTableViewSectionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD555F19E99F610031A0B0 /* Debug */,
+				B0FD556019E99F610031A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FD556119E99F610031A0B0 /* Build configuration list for PBXNativeTarget "NFJTableViewSectionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD556219E99F610031A0B0 /* Debug */,
+				B0FD556319E99F610031A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FD556419E99F610031A0B0 /* Build configuration list for PBXNativeTarget "NFJTableViewSectionControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD556519E99F610031A0B0 /* Debug */,
+				B0FD556619E99F610031A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FD553619E99F610031A0B0 /* Project object */;
+}
