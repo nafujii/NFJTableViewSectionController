@@ -3,6 +3,8 @@
 NFJTableViewSectionController manages sections of tableView easily.
 You can open or close sections programmatically or tapping section header views.
 
+![demo](https://raw.githubusercontent.com/naokif/NFJTableViewSectionController/develop/demo.gif)
+
 ##Usage
 (see sample Xcode project in ```/Demo```)
 
