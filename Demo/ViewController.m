@@ -124,7 +124,7 @@ static const NSInteger kCannotOpenIndex   = 2;
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 15.f;
+    return 20.f;
 }
 
 #pragma mark - NFJSectionControllerDataSource
